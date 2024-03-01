@@ -1,0 +1,7 @@
+spring:
+  r2dbc:
+    url: r2dbc:mariadb://root:090200@localhost:3307/money-manager
+  data:
+    r2dbc:
+      repositories:
+        enabled: true
